@@ -17,13 +17,23 @@ To get started with SkinGPT, follow these steps:
    ```
    git clone https://github.com/yourusername/skingpt.git
    ```
-2. Install dependencies:
+2. Install yolov5.
+   ```
+   pip install yolov5
+   
+   ```
+3. download Llama-2-7B-Chat-GGUF model to your folder from hugging face.
+   ```
+   https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/tree/main
+   
+   ```
+4. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
-3. Run the application:
+5. Run the application:
    ```
    python app.py
    ```
-4. Access SkinGPT in your web browser at `http://localhost:5000`.
+6. Access SkinGPT in your web browser at `http://localhost:5000`.
 
